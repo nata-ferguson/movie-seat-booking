@@ -1,8 +1,8 @@
-Movie Seat Booking UI
+Movie Seat Booking UI:<br>
 
-Display movie selection, screen, seats, legend & seat info
-User can select a movie
-User can select and deselect seats
-User can not select occupied seats
-Number of seats and price will update
+Display movie selection, screen, seats, legend & seat info<br>
+User can select a movie<br>
+User can select and deselect seats<br>
+User can not select occupied seats<br>
+Number of seats and price will update<br>
 Save seats, movie and price to local storage so that UI is populated on refresh
