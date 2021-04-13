@@ -32,13 +32,15 @@ function updateSelectedCount() {
 
     count.innerText = selectedSeatsCount;
     total.innerText = selectedSeatsCount * ticketPrice;
+    
+    setMovieData(movieSelect.selectedIndex, movieSelect.value);
 }
 
 //get data from local storage and populate UI
 function populateUI() {
     const selectedSeats = JSON.parse(localStorage.getItem('selectedSeats'));
 
-    if (selectedSeats !== null & selectedSeats.length > 0) {
+    if (selectedSeats !== null && selectedSeats.length > 0) {
         seats.forEach((seat, index) => {
             if(selectedSeats.indexOf(index) > -1) {
                 seat.classList.add('selected');
